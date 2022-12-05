@@ -8,6 +8,8 @@ body {
   background: #222;
   background-image: url('https://images.pexels.com/photos/186980/pexels-photo-186980.jpeg?auto=compress&cs=tinysrgb&w=1920');  /*https://source.unsplash.com/1920x1080/?earth */
   background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #real , .card {
