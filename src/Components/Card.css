@@ -1,0 +1,54 @@
+.Card {
+    display: block;
+    margin: 10px;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    border-radius: 30px;
+    padding: 16px;
+    background: rgba(203, 241, 245, 1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(178, 210, 214, 0.138);
+    color: #71C9CE;
+}
+
+
+input {
+    outline: none;
+    width: 65%;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 50px;
+    padding-left: 10px;
+    font-size: medium;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 100%;
+    outline: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.data {
+    display: block;
+    text-align: left;
+}
+
+.logo{
+    display: flex;
+}
