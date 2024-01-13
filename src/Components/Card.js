@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useRef } from 'react';
 import search from '../asset/searchicon.svg';
 import cross from '../asset/crossicon.svg';
@@ -56,7 +56,7 @@ export default function Card(props) {
             <h1>Weather in {weatherData.name}</h1>
             <h1>{weatherData.main.temp}&deg;C</h1>
             <div className='logo'>
-              <img src={`https://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png`} />
+              <img src={`https://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png`} alt="" />
               <p>{weatherData.weather[0].description}</p>
             </div>
             <div className='info'>
